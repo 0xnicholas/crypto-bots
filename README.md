@@ -1,4 +1,4 @@
-> crypto-bots project breakdown -nicholasli
+> crypto-bots project breakdown - refer to hummingbot
 
 ```
 bots (beta)
@@ -44,3 +44,5 @@ bots (beta)
 │
 └── user				# handles user-specific data like balances across exchanges
 ```
+
+# Connector Template
