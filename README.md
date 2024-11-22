@@ -1,7 +1,32 @@
-> crypto-bots project breakdown - refer to hummingbot
+# Crypto bots
+> frameworks for crypto [trader/quant/miner/maker] -refer to hummingbot
+
+## Strategy Architecture
+
+
+## Core
+
+## Client/Cmd
+> only support cmd.
+
+
+## Connectors
+We classify exchanges into the following categories:
+
+- CEX: Centralized exchanges that take custody of your funds. Use API keys to connect with bots.
+- DEX: Decentralized, non-custodial exchanges that operate on a blockchain. Use wallet keys to connect with bots.
+
+In addition, connectors differ based on the type of market supported:
+
+- CLOB Spot: Connectors to spot markets on central limit order book (CLOB) exchanges
+- CLOB Perp: Connectors to perpetual futures markets on CLOB exchanges
+- AMM: Connectors to spot markets on Automatic Market Maker (AMM) decentralized exchanges
+
+
+## project breakdown (未开源)
 
 ```
-bots (beta)
+crypto-bots (beta)
 │
 ├── cli					# CLI related files
 │
@@ -46,6 +71,7 @@ bots (beta)
 ```
 
 
-## _renovation project
+## _memo
 
-[] 整合 MEV bots
+- [] 整合 MEV bots
+- [] ML helper
