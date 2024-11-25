@@ -94,4 +94,5 @@ crypto-bots (beta)
 ## _memo
 
 - [x] 整合 MEV bots
-- [x] ML helper
+- [x] 增加对memecoin的特定管理
+- [x] ML helper(GPT4)
