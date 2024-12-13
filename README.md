@@ -1,7 +1,40 @@
 # Crypto bots
 > frameworks for crypto [trader/quant/miner/maker] -refer to hummingbot
 
-## Strategy Architecture
+## Strategy
+
+### Strategy types
+- Market making
+- Arbitrage
+- Utility
+
+#### Market making
+做市策略帮助交易者向交易所提供流动性，同时动态调整仓位，以及对冲订单来减轻风险。
+
+|Name|Description|
+|----|----|
+|`avellaneda_market_making`| Single-pair market making strategy based on the classic Avellaneda-Stoikov paper|
+|`cross_exchange_market_making`|Provide liquidity while hedging filled orders on another exchange|
+|`liquidity_mining`|Provide liquidity on multiple pairs using a single base or quote token|
+|`pure_market_making`|single-pair market making strategy|
+|`aroon_oscillator`|Modified version of Pure Market Making that uses Aroon technical indicator (Open DeFi hackathon winner)|
+|`perpetual_market_making`|Market-making strategy for perpetual swap markets|
+|`cross_exchange_mining`| Cross Exchange Market Making strategy|
+
+
+#### Arbitrage
+套利策略帮助交易者捕获不同的市场机会，以实现套利收益。
+
+
+
+
+#### Utility
+
+
+
+### Strategy Architecture
+
+
 
 
 ## Core
@@ -43,7 +76,8 @@ perp连接器的其他要求：
 - 用于检查头寸的REST API endpoint 
 - 用于配置杠杆的REST API endpoint 
 
-## project breakdown (non opensource)
+## project breakdown
+> non opensource
 
 ```
 crypto-bots (beta)
