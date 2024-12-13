@@ -25,11 +25,21 @@
 #### Arbitrage
 套利策略帮助交易者捕获不同的市场机会，以实现套利收益。
 
-
+|Name|Description|
+|----|----|
+|`amm_arb`|利用AMM和现货交易所之间的价格差异。该策略监控一个交易所的交易对与另一个交易所或交易所的另一个交易对之间的价格，以识别套利机会。它在两个市场中执行抵消的买入和卖出订单，以捕获套利机会（扣除交易成本（包括gas和交易所费用））。|
+|`arbitrage`|Exploits price differences between two different spot exchanges|
+|`spot_perpetual_arbitrage`|Exploits price differences between spot and perpetual swap exchanges|
+|~~`amm_amm_arb`~~|
 
 
 #### Utility
 
+|Name|Description|
+|----|----|
+|`Fixed grid`|Place orders above and below a set price|
+|`hedge`|Hedges spot exchange inventory risk using perpetual swaps (dYdX hackathon winner)|
+|`twap`|Places a batch of limit orders over a period of time|
 
 
 ### Strategy Architecture
