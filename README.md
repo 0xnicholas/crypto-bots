@@ -86,6 +86,13 @@ perp连接器的其他要求：
 - 用于检查头寸的REST API endpoint 
 - 用于配置杠杆的REST API endpoint 
 
+### CLOB Connectors
+
+#### Binance
+> API Docs: https://binance-docs.github.io/apidocs/spot/
+
+### AMM Connectors
+
 ## project breakdown
 > non opensource
 

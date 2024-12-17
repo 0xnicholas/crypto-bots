@@ -1,0 +1,26 @@
+# Tools
+
+
+## 12 Cycle Top Tools & Exit Indicators
+> https://x.com/OstiumLabs/status/1867617695392526399
+1. PI周期
+2. MVRV Z-Score
+3. VAPLI(Volatility Adjusted Power Law Index) 和 Decay Oscillator
+4. Mayer Multiple
+5. NUPL
+6. Terminal Price
+7. 4年MA倍数
+8. 22天RSI
+9. Coinbase /Phantom / Moonshot 应用程序排名
+10. 搜索趋势
+11. TOP X市值
+12. 3个月年化基差
+---
+13. OTHERS OI VS BTC OI
+14. VC FUNDRAISING ROUNDS
+15. ALTCOIN SEASON INDEX ABOVE 85
+16. BUSINESS CYCLE COMPOSITE INDICATOR
+17. STABLECOIN DOMINANCE MOMENTUM DIVERGENCES
+18. ALTCOIN DOMINANCE / (ETH + BTC DOMINANCE)
+19. BTC ON-CHAIN VOLUME (MONTHLY) (THE BLOCK)
+20. NEW WEEKLY YOUTUBE VIEWS (THE BLOCK)
